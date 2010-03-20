@@ -47,12 +47,11 @@ a:hover {
 	font-family: Georgia, Times New Roman Times, Serif;
 	font-weight: bold;
 	font-size: 56px;
-	text-shadow: 2px 2px 4px #000;
-	position: relative;
+	text-shadow: 2px 2px 4px #000;;
+position: relative;
 	}
 
-#header h1 span { 
-  position: absolute; background: url(images/gradient.png) repeat-x;
+#header h1 span { position: absolute; background: url(images/gradient-grey.png) repeat-x;
   display: block;
   width: 100%;
 }
@@ -142,10 +141,12 @@ a:hover {
 	position: static;
 	}
 	
+
+
 .navcontainer {
 	height: 34px;
     background: url(images/nav-background.png) top left repeat-x;
-    padding: 8px 0 0 8px;
+    padding: 8px 0 0 8px; border-top: 1px solid black;
 	}
 	
 #nav {
@@ -180,17 +181,6 @@ a:hover {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	}
-
-#nav ul.children {
-	background: #1b0424;
-	position: absolute;
-	visibility: hidden;
-	z-index: 9;
-	width: 200px; min-width: 200px; 
-	}
-#nav ul.children li {
-	width: 100%;
 	}	
     
 #nav li a, #nav li a:link {
@@ -219,6 +209,16 @@ a:hover {
 #nav li:hover, #nav li.sfhover { 
 	position: static;
 	}
+
+#nav ul.children {
+	position: absolute;
+	visibility: hidden;
+	z-index: 9;
+	width: 200px; min-width: 200px; 
+	}
+#nav ul.children li { width: 100%; }
+#nav ul.children li a { background: #1b0424; }
+#nav ul.children li a:hover { background: url(images/nav-hover.png) top left repeat-x; }
 	
 /* CONTENT */
 
