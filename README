@@ -15,14 +15,20 @@ Here or http://www.paxion.net
 Why another theme
 -----------------
 
-Simply because I want to have a better theme with new improved features.
+Simply because I want to have a better customized theme with new improved features.
 * Drop down menu in the navigation bar
 * Better layout
+* Some cool styles from CSS3
 * ... see the changelog for more
 
 Changelog
------------------
-0.1
----
+---------
+21-Mar-2010
+-----------
+* Remove malicious code from the original author
+* Fix a bug in the dropdown menu
+* Switch to mootools in Google CDN
+20-Mar-2010
+-----------
 * Support sub categories in the navigation bar. They are displayed in a drop down menu
 * Fix the post layout when thumbnail is too big
